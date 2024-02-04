@@ -31,9 +31,9 @@ the class of algorithms to tackle them is called  reinforcement learning
 
 +++
 
-## The RL components
+<!-- ## The RL components -->
 
-```{tikz}
+<!-- ```{tikz}
 \tikzstyle{reward}=[shape=circle,draw=blue!50,fill=blue!10]
 \tikzstyle{action}=[shape=circle,draw=green,fill=green!10]
 \tikzstyle{state}=[shape=circle,draw=red!50,fill=red!10]
@@ -65,7 +65,7 @@ the class of algorithms to tackle them is called  reinforcement learning
 \draw [->] (s2) to (r1);
 \draw [->] (s1) to [out=165, in=165] (r1.west);
 \draw [->] (a1) to (r1);
-```
+``` -->
 
 +++
 

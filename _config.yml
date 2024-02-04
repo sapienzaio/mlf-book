@@ -47,6 +47,6 @@ parse:
 
 
 
-sphinx:
-  extra_extensions:
-    - sphinxcontrib.tikz
+# sphinx:
+#   extra_extensions:
+#     - sphinxcontrib.tikz
