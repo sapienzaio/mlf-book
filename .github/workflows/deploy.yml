@@ -44,8 +44,5 @@ jobs:
       if: ${{ github.event_name == 'push' }}
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        # publish_branch: main
         publish_dir: ./_build/html
         # cname: github.io.sapienzaio/mlfin
-        # external_repository: sapienzaio/mlfin
-        # deploy_key: ${{ secrets.DEPLOY_DOCS }}

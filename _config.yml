@@ -46,7 +46,6 @@ parse:
     - substitution
 
 
-
 # sphinx:
 #   extra_extensions:
 #     - sphinxcontrib.tikz
