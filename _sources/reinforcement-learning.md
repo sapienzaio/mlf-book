@@ -25,8 +25,8 @@ One way to overcome the limitation of this classical point of view is to build a
 In this chapter, an *adaptive* agent is one that, having committed to a decision,
 obtain a reward (or punishment) based on this decision, and update its behaviour based on the reward.
 In this chapter, we study agents whose goal is to maximise their expected future returns.
-This mode of behaviour is called sequential decision making and a 
-the class of algorithms to tackle them is called  reinforcement learning
+This mode of behaviour is called sequential decision making and one class of algorithms to
+create agents that behave in this way is called *reinforcement learning* (RL).
 {cite}`sutton2018reinforcement`.
 
 +++
@@ -86,7 +86,6 @@ with $0 < \epsilon \ll 1$ and
 $q_t(a) = \mathbb{E}[R_t \vert {\cal A}_t = a]$
 the average return obtained after
 choosing arm $a$.
-
 We estimate $q_t(a)$ recursively as
 
 $$
@@ -124,6 +123,7 @@ the average return obtained after
 choosing arm $a$.
 
 We estimate $q_t(a)$ recursively as
+
 $$
 \begin{aligned}
 q_t(a)

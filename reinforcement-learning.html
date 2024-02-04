@@ -409,8 +409,8 @@ One way to overcome the limitation of this classical point of view is to build a
 In this chapter, an <em>adaptive</em> agent is one that, having committed to a decision,
 obtain a reward (or punishment) based on this decision, and update its behaviour based on the reward.
 In this chapter, we study agents whose goal is to maximise their expected future returns.
-This mode of behaviour is called sequential decision making and a
-the class of algorithms to tackle them is called  reinforcement learning
+This mode of behaviour is called sequential decision making and one class of algorithms to
+create agents that behave in this way is called <em>reinforcement learning</em> (RL).
 <span id="id1">[<a class="reference internal" href="#id3" title="Richard S Sutton and Andrew G Barto. Reinforcement learning: An introduction. MIT press, 2018.">SB18</a>]</span>.</p>
 <!-- ## The RL components -->
 <!-- ```{tikz}
@@ -459,8 +459,8 @@ the class of algorithms to tackle them is called  reinforcement learning
 <p>with <span class="math notranslate nohighlight">\(0 &lt; \epsilon \ll 1\)</span> and
 <span class="math notranslate nohighlight">\(q_t(a) = \mathbb{E}[R_t \vert {\cal A}_t = a]\)</span>
 the average return obtained after
-choosing arm <span class="math notranslate nohighlight">\(a\)</span>.</p>
-<p>We estimate <span class="math notranslate nohighlight">\(q_t(a)\)</span> recursively as</p>
+choosing arm <span class="math notranslate nohighlight">\(a\)</span>.
+We estimate <span class="math notranslate nohighlight">\(q_t(a)\)</span> recursively as</p>
 <div class="math notranslate nohighlight">
 \[\begin{split}
 \begin{aligned}
@@ -490,13 +490,14 @@ q_t(a)
 <span class="math notranslate nohighlight">\(q_t(a) = \mathbb{E}[R_t \vert {\cal A}_t = a]\)</span>
 the average return obtained after
 choosing arm <span class="math notranslate nohighlight">\(a\)</span>.</p>
-<p>We estimate <span class="math notranslate nohighlight">\(q_t(a)\)</span> recursively as
-$<span class="math notranslate nohighlight">\(
+<p>We estimate <span class="math notranslate nohighlight">\(q_t(a)\)</span> recursively as</p>
+<div class="math notranslate nohighlight">
+\[
 \begin{aligned}
 q_t(a)
 &amp;= q_{t-1}(a) + \alpha_t\Big(r_t - q_{t-1}(a)\Big),
 \end{aligned}
-\)</span>$</p>
+\]</div>
 <p>with <span class="math notranslate nohighlight">\(\alpha_t &gt; 0\)</span>.</p>
 </section>
 <section id="stationary-contextual-epsilon-greedy-bandit">
